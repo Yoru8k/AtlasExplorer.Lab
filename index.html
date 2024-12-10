@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leak Atlas Explorer</title>
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">">
+</head>
+<body class="corps">
+    <link rel="stylesheet" href="styles.css">
+    <p class="accroche1">Bienvenue, </p>
+    <p class="accroche2">Merci, car c'est grâce à vous que nous pouvons continuer à faire vivre notre projet.</p>
+    <p class="accroche3">je vous invite maintenant à cliquer sur le bouton ci-dessous</p>
+    <p><link rel="stylesheet" href=""></p>
+    <div class="container">
+        <button class="btn"><a class="textb" href="#section2">découvrir</a></button>
+    </div>
+
+    <div id="section2" class="section">
+        <img class="AD" src="visus/1.jpg" alt="Leak Atlas">
+    </div>
+
+    <div id="section2" class="section">
+        <img class="AD" src="visus/3.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/4.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/5.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/6.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/7.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/8.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/9.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/10.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/11.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/12.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/23.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/14.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/15.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/16.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/17.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/18.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/19.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/20.jpg" alt="Leak Atlas">
+    </div>
+    <div id="section2" class="section">
+        <img class="AD" src="visus/21.jpg" alt="Leak Atlas">
+        <img class="AD2" src="visus/22.jpg" alt="Leak Atlas">
+    </div>
+    <script>
+        // Liste des images à faire défiler
+        const images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
+        let currentImageIndex = 0;  // Index de l'image actuelle
+    
+        function nextImage() {
+          // Incrementer l'index pour afficher la prochaine image
+          currentImageIndex = (currentImageIndex + 1) % images.length;
+          // Changer la source de l'image
+          document.getElementById('image').src = images[currentImageIndex];
+        }
+      </script>
+</body>
+</html>
